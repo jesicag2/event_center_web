@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #FEF3E1;
+}
+
+/* header styling */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #99817B;
+    position: sticky;
+    top: 0;
+}
+
+/* navbar styling */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar li {
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+/* logo styling */
+.site-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.site-main {
+    padding: 20px;
+}
+
+/* welcome styling */
+.welcome {
+    text-align: center;
+    padding: 40px 20px;
+    background: #e0b49b;
+    border-radius: 25px;
+    color: white;
+}
+
+/* about us styling */
+.about {
+    padding: 40px 20px;
+    border-radius: 25px;
+}
+
+.about p a {
+    color: #C489B9;
+    font-weight: 600;
+}
+
+/* events class styling */
+.events {
+    padding: 40px 20px;
+    border-radius: 25px;
+}
+
+.event {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    border: black 1px solid;
+    max-width: 300px;
+}
+
+.event img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* flex events styling */
+.event-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* footer styling */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 4px 0px;
+}
