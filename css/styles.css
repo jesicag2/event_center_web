@@ -57,7 +57,7 @@ body{
 
 /* about us styling */
 .about {
-    padding: 40px 20px;
+    padding: 20px;
     border-radius: 25px;
 }
 
@@ -68,7 +68,7 @@ body{
 
 /* events class styling */
 .events {
-    padding: 40px 20px;
+    padding: 20px;
     border-radius: 25px;
 }
 
@@ -91,6 +91,41 @@ body{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+/* menu styling */
+.menu {
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.menu table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.menu th {
+    background-color: #f2c3a7;
+}
+.menu td, th {
+    border: 1.5px solid #99817b;
+    text-align: left;
+    padding: 8px;
+}
+
+.menu tr:hover {
+    background-color: #c489b9;
+}
+
+.menu td:nth-child(odd) {
+    background-color: #f2c3a7;
+}
+
+@media screen and (max-width: 600px) {
+    table, th, td, tr {
+      display: block;
+    }
 }
 
 
