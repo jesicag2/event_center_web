@@ -53,6 +53,7 @@ body{
     background: #e0b49b;
     border-radius: 25px;
     color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* about us styling */
@@ -129,19 +130,24 @@ body{
 }
 
 /* location styling */
-.location {
+
+.location-flex {
+    display: block;
+}
+
+.map-display {
     padding: 20px;
+    padding-bottom: 40px;
     border-radius: 25px;
 }
 
 .map {
-    max-width: 100%;
+    max-width: 70%;
     height: 400px;
-    position: relative;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     background-color: #f0f0f0;
-    margin: 20px 0;
+    margin: 0 auto;
 }
 
 .map iframe {
@@ -151,6 +157,39 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+.location {
+    padding: 20px;
+    background: #c489b9;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.location h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 20px;
+}
+
+.location h4 {
+    color: #333;
+    font-size: 18px;
+}
+
+.location p, ul {
+    padding-left: 15px;
+}
+
+.location ul {
+    list-style: none;
+}
+
+.location li {
+    margin-bottom: 10px;
+}
 
 /* footer styling */
 footer {
